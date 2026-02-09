@@ -89,6 +89,8 @@ switch (operator) {
   case "/":
     if (b !== 0) {
       sum = a / b;
+    }else{
+        console.log("You can't divide by zero")
     }
     break
   default:
